@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Minimal Tasks by Nishio</h1>
+      <h1 style={styles.title}>Minimal Tasks by nishio</h1>
 
       <div style={styles.inputArea}>
         <input
