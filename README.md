@@ -1,16 +1,19 @@
-# React + Vite
+# 📝 Minimalist Todo App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+フロントエンドエンジニアとしての初の一歩として開発をスタートした、ミニマルなタスク管理アプリケーションです。
+Reactの基礎（State、JSX、コンポーネントツリー）と、Git/Macターミナルを活用したプロの開発フローの実践を記録しています。
 
-Currently, two official plugins are available:
+## 🚀 開発再開の爆速ルーティン (Mac Terminal)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+次回開発を始めるときは、Macのターミナルを開いて以下のコマンドを叩くことで、環境が即座に復元されます。
 
-## React Compiler
+```bash
+# 1. プロジェクトのフォルダに移動
+cd my-react-app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 2. 今いる場所をVS Codeで開く
+code .
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 3. VS Codeが起動したら、内蔵ターミナルでローカルサーバーを起動
+npm run dev
+```
